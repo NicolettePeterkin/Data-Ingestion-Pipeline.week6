@@ -1,0 +1,59 @@
+file_type: csv
+dataset_name: parking_violations_issued
+file_name: parking_violations_issued_fiscal_year_2016
+table_name: parking_violations
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - plate_type
+    - vehicle_body_type
+    - violation_code
+    - registration_state
+    - vehicle_make
+    - issue_date
+    - summons_number
+    - issuing_agency
+    - street_code1
+    - plate_id
+    - violation_post_code
+    - bbl
+    - street_code2
+    - street_code3
+    - meter_number
+    - double_parking_violation
+    - violation_time
+    - nta
+    - community_council
+    - date_first_observed
+    - feet_from_curb
+    - bin
+    - street_name
+    - issuer_code
+    - issuer_precinct
+    - intersecting_street
+    - vehicle_year
+    - time_first_observed
+    - no_standing_or_stopping_violation
+    - law_section
+    - issuer_command
+    - violation_in_front_of_or_opposite
+    - violation_location
+    - days_parking_in_effect
+    - longitude
+    - unregistered_vehicle
+    - violation_description
+    - latitude
+    - violation_precinct
+    - from_hours_in_effect
+    - house_number
+    - violation_legal_code
+    - census_tract
+    - vehicle_expiration_date
+    - issuer_squad
+    - violation_county
+    - sub_division
+    - community_board
+    - hydrant_violation
+    - vehicle_color
+    - to_hours_in_effect
